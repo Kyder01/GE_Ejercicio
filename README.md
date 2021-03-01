@@ -42,5 +42,8 @@ Adicional en la parte inferior del formulario encontrará un botón llamado “v
 ### Solución ejecutada
 Para revisar las pruebas realizadas remítase al archivo en github: https://github.com/Kyder01/GE_Ejercicio/blob/master/Evidencia%20ejecucion.docx 
 
+### URL Hosting
+
+https://geejercicioentrevista.000webhostapp.com/
 
 
