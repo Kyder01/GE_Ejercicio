@@ -11,14 +11,14 @@ function validarForma(forma) {
     // Validacion Documento
     var documento = forma.id.value;
     if (documento == "") {
-        alert("El campo identificación no puede estar vacío");
+        alert("El campo \'identificación\' no puede estar vacío");
         return false;
     }
 
     // Validacion Nombre  
     var nombreInvitado = forma.nombre.value
     if (nombreInvitado == "") {
-        alert('El campo nombre nombre no puede estar vacío')
+        alert('El campo \'nombre\' no puede estar vacío')
         return false;
     } else {
         if (/^([A-z][A-zñáéíóú]+[\s]*)+$/.test(nombreInvitado) == false) {
@@ -30,11 +30,11 @@ function validarForma(forma) {
     // Validacion Telefono
     var telefonoInvitado = forma.telefono.value
     if (telefonoInvitado == "") {
-        alert('El campo teléfono no puede estar vacío')
+        alert('El campo \'teléfono\' no puede estar vacío')
         return false;
     } else {
         if (/^[0-9][0-9]*$/.test(telefonoInvitado) == false) {
-            alert('El Teléfono debe ser un valor numérico');
+            alert('El teléfono debe ser un valor numérico');
             return false;
         }
     }
@@ -42,17 +42,17 @@ function validarForma(forma) {
     var correoInvitado = forma.email.value;
     var expr = /^\w+([\.-]?\w+)*@\w+(\.\w{2,3,4})+$/;
     if (correoInvitado == "") {
-        alert('El \'campo Correo Electrónico\' nombre no puede estar vacío')
+        alert('El campo \'Correo Electrónico\' no puede estar vacío')
         return false;
     } else {
         if (/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(correoInvitado) == false) {
-            alert('Correo electrónico no valido');
+            alert('Correo electrónico no válido');
             return false;
         }
     }
 
     // Alerta que indica que todos los campos fueron ingresados correctamente
-    alert("Formulario valido, enviando datos...");
+    alert("Formulario válido, enviando datos...");
     return true;
 }
 
