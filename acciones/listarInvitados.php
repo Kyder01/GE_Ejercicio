@@ -23,10 +23,10 @@
                 <thead>
                     <tr>
                         <th>Tipo de identificación</th>
-                        <th>Numero de indetificación</th>
+                        <th>Número de identificación</th>
                         <th>Nombre</th>
-                        <th>Telefono</th>
-                        <th>Correo electronico</th>
+                        <th>Teléfono</th>
+                        <th>Correo electrónico</th>
                     </tr>
                 </thead>
                 <tbody>
